@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "reservation": "Reservation",
+    "contact": "Contact",
+    "shows": "Shows",
+    "hours": "Hours",
+    "catering": "Catering"
+  },
+  "hero": {
+    "title1": "SABORES",
+    "title2": "ARGENTINOS",
+    "subtitle": "Authentic Argentine Flavors in Miami",
+    "cta_menu": "View Menu",
+    "cta_reserve": "Reserve Table"
+  },
+  "about": {
+    "title": "AUTHENTIC ARGENTINE CUISINE",
+    "description": "Experience the true taste of Argentina in the heart of Miami. From our famous empanadas to premium grilled meats, every dish is crafted with traditional recipes and passion.",
+    "cta": "Learn More"
+  },
+  "featured": {
+    "title": "CHEF'S PICKS",
+    " "subtitle": "Our Signature Dishes"
+  },
+  "testimonials": {
+    "title": "WHAT OUR CUSTOMERS SAY",
+    "subtitle": "Real reviews from real diners"
+  },
+  "reservation": {
+    "title": "RESERVE YOUR TABLE",
+    "subtitle": "Book online and we'll confirm via phone",
+    "note": "For immediate booking, please call (786) 360-2110",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of Guests",
+      "requests": "Special Requests",
+      "submit": "Book Table"
+    }
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": "9648 SW 24 St, Miami, FL 33165",
+      "phone": "(786) 360-2110",
+      "email": "eat@saboresargentinosmiami.com",
+      "hours": "Hours"
+    }
+  },
+  "hours": {
+    "title": "STORE HOURS",
+    "mon_thu": "Monday to Thursday",
+    "mon_thu_time": "11:30 AM - 7:00 PM",
+    "fri_sat": "Friday and Saturday",
+    "fri_sat_time": "11:30 AM - 8:30 PM",
+    "sun": "Sunday",
+    "sun_time": "Closed",
+    "promo_title": "BIRTHDAY PROMOTION",
+    "promo_text": "On the day of your birthday and up to five days after or before, come with your family and friends to celebrate at SABORES ARGENTINOS and we give you a bottle of Argentinean wine for free. This promotion is valid for parties of two or more people.",
+    "promo_cta": "Make your reservation at (786) 360-2110"
+  },
+  "menu": {
+    "title": "OUR MENU",
+    "subtitle": "Authentic Argentine Cuisine",
+    "categories": {
+      "starters": "Starters / Entradas",
+      "grill": "From the Grill / Parrilla",
+      "kitchen": "Our Kitchen / Nuestra Cocina",
+      "pasta": "Pasta & Rice / Pastas y Arroces",
+      "vegetables": "Vegetables / Vegetales",
+      "sides": "Sides & Portions / Acompañantes",
+      "desserts": "Desserts / Postres",
+      "drinks": "Drinks / Bebidas",
+      "sandwiches": "Sandwiches / Sandwiches",
+      "coffee": "Coffee / Cafetería"
+    },
+    "disclaimer": "Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of food borne illness, especially to those whom have certain medical conditions. Shared plates have an additional charge of $3.00"
+  },
+  "shows": {
+    "title": "DINNER SHOWS & EVENTS",
+    "subtitle": "Experience Tango and Bolero nights in Miami"
+  },
+  "catering": {
+    "title": "CATERING & ON-SITE COOKING",
+    "subtitle": "Bring the authentic Argentine asado to your home or office",
+    "description": "We offer on-site asado catering for your special events. Our team will come to your location and prepare authentic Argentine grilled meats fresh for your guests.",
+    "cta": "Request a Quote"
+  },
+  "footer": {
+    "newsletter": "Subscribe to our newsletter for specials & events!",
+    "copyright": "© 2025 Sabores Argentinos. All rights reserved.",
+    "design": "Crafted with love"
+  }
+}

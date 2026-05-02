@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development Agreement - Sabores Argentinos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Instrument Serif', Georgia, serif; 
+            color: #2a2a2a; 
+            line-height: 1.8; 
+            background: linear-gradient(135deg, #faf3e6 0%, #faf3e6 30%, #e8dcc8 30%, #e8dcc8 60%, #faf3e6 60%, #faf3e6 100%);
+            background-size: 100% 100%;
+        }
+        .container { 
+            max-width: 900px; 
+            margin: 40px auto; 
+            background: white; 
+            padding: 60px 50px;
+            box-shadow: 0 20px 60px rgba(139,69,19,0.15);
+            border: 3px solid #FFD700;
+        }
+        h1 { 
+            font-family: 'Playfair Display', 'Arial Black', serif; 
+            color: #8b4513; 
+            font-size: 42px; 
+            margin-bottom: 15px;
+            font-weight: 900;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        h2 { 
+            font-family: 'Playfair Display', 'Arial Black', serif; 
+            color: #8b4513; 
+            font-size: 28px; 
+            margin-top: 40px; 
+            margin-bottom: 20px; 
+            border-bottom: 4px solid #FFD700; 
+            padding-bottom: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        h3 { 
+            font-family: 'Playfair Display', 'Arial Black', serif; 
+            color: #8b4513; 
+            font-size: 22px; 
+            margin-top: 25px; 
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        .header { 
+            text-align: center; 
+            padding: 50px 40px; 
+            background: linear-gradient(135deg, #8b4513 0%, #8b4513 30%, #a0522d 30%, #a0522d 60%, #8b4513 60%, #8b4513 100%);
+            color: white; 
+            margin: -60px -50px 50px -50px; 
+            padding: 60px 50px;
+            border-bottom: 5px solid #FFD700;
+        }
+        .header h1 { 
+            color: #FFD700; 
+            font-size: 44px; 
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+            letter-spacing: 6px;
+        }
+        .header p { 
+            color: #faf3e6; 
+            font-size: 18px; 
+            margin-top: 15px;
+            font-style: italic;
+        }
+        .client-info { 
+            background: #faf3e6; 
+            padding: 25px 30px; 
+            margin: 30px 0; 
+            border-left: 5px solid #FFD700;
+            border-radius: 4px;
+        }
+        .client-info strong { 
+            color: #8b4513; 
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+        .client-info p { 
+            margin-bottom: 8px; 
+            font-size: 16px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        ul { 
+            margin-left: 25px; 
+            margin-bottom: 20px; 
+        }
+        li { 
+            margin-bottom: 10px; 
+            padding-left: 5px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .payment-box { 
+            background: linear-gradient(135deg, #faf3e6 0%, #f5e6d3 100%); 
+            border: 4px solid #FFD700; 
+            padding: 35px; 
+            margin: 30px 0; 
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(255,215,0,0.2);
+        }
+        .payment-box .amount { 
+            color: #8b4513; 
+            font-size: 48px; 
+            font-weight: 900; 
+            font-family: 'Playfair Display', serif;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+            margin: 15px 0;
+        }
+        .payment-box .note { 
+            margin-top: 15px; 
+            color: #5a3a1a; 
+            font-size: 16px;
+            font-style: italic;
+        }
+        .terms-box { 
+            background: #fff9e6; 
+            padding: 25px 30px; 
+            margin: 20px 0; 
+            border-radius: 8px;
+            border: 2px solid #d4c89a;
+        }
+        .terms-box .term { 
+            display: flex; 
+            justify-content: space-between; 
+            padding: 12px 0; 
+            border-bottom: 1px solid #d4c89a;
+            font-size: 17px;
+        }
+        .terms-box .term:last-child { 
+            border-bottom: none; 
+        }
+        .maintenance-box { 
+            background: linear-gradient(135deg, #f5e6d3 0%, #faf3e6 100%); 
+            border: 3px solid #8b4513; 
+            padding: 30px; 
+            margin: 25px 0; 
+            border-radius: 8px;
+        }
+        .maintenance-box h3 { 
+            margin-top: 0; 
+            color: #8b4513;
+        }
+        .highlight { 
+            color: #8b4513; 
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+        }
+        .signature-box {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #d4c89a;
+        }
+        .signature-line {
+            width: 45%;
+            text-align: center;
+        }
+        .signature-line .line {
+            border-bottom: 2px solid #8b4513;
+            margin: 40px 20px 10px 20px;
+            padding-bottom: 5px;
+        }
+        .footer { 
+            text-align: center; 
+            margin-top: 50px; 
+            padding-top: 30px; 
+            border-top: 3px solid #d4c89a; 
+            color: #666; 
+            font-size: 15px; 
+        }
+        .divider {
+            height: 3px;
+            background: linear-gradient(90deg, #FFD700 0%, #8b4513 50%, #FFD700 100%);
+            margin: 40px 0;
+            border-radius: 2px;
+        }
+        strong {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>WEBSITE DEVELOPMENT AGREEMENT</h1>
+            <p>Sabores Argentinos | Yander Martinez</p>
+        </div>
+
+        <div class="client-info">
+            <p><strong>Client:</strong> Owner name</p>
+            <p><strong>Developer:</strong> Yander Martinez | Contra</p>
+            <p><strong>Project:</strong> Luxury Argentine Steakhouse Website</p>
+            <p><strong>Address:</strong> 9648 SW 24 St, Miami, FL 33165</p>
+            <p><strong>Date:</strong> May 2, 2026</p>
+        </div>
+
+        <h2>1. Project Description</h2>
+        <p>This Agreement governs the development and maintenance of a professional single-page website for <strong>Owner name</strong> - Sabores Argentinos, an Argentine steakhouse business located in Miami, Florida.</p>
+        <p>The website includes 8+ custom sections with unique designs, complete bilingual support (English/Spanish), advanced Framer Motion animations, video hero background, gallery with modal, testimonials, and a complete reservation system.</p>
+
+        <h2>2. Intellectual Property & Code Custody</h2>
+        <p>Upon receipt of final payment, the Client shall own all rights, titles, and interests in the final website ("Deliverables"), including but not limited to:</p>
+        <ul>
+            <li>Design files and visual assets</li>
+            <li>Content and written materials</li>
+            <li>Domain registration (if applicable)</li>
+            <li>Brand elements created specifically for this project</li>
+            <li>Source Code Custody</li>
+        </ul>
+        <p><strong>Source Code Custody:</strong> For security and stability, the Source Code shall be hosted in a private repository managed by the Developer. The Client will have read access but not "write" access to this repository while the Maintenance Agreement is active to prevent accidental site failure.</p>
+        <p><strong>Code Release Policy:</strong> Should the Client choose to terminate the Maintenance Agreement, the Developer will provide a full export of the Source Code (via .zip file or Repository Transfer) within 14 days of the final service date.</p>
+
+        <h2>3. Maintenance Terms</h2>
+        <div class="maintenance-box">
+            <h3>Hosting & Maintenance Package</h3>
+            <p><span class="highlight">FREE for 1st month</span>, then <span class="highlight">$100/month starting Month 2</span></p>
+            <ul style="margin-top: 15px;">
+                <li>Hosting & domain management (99.9% uptime)</li>
+                <li>Security & dependency updates (Next.js, packages)</li>
+                <li>Content updates (menu changes, events, photos) - up to 2 hours/month</li>
+                <li>Daily backups & uptime monitoring</li>
+                <li>Bug fixes & performance checks</li>
+                <li>Form spam protection updates</li>
+                <li>Monthly analytics report</li>
+            </ul>
+            <p style="margin-top: 20px; font-style: italic; color: #5a3a1a;"><strong>Termination:</strong> Either party may terminate with 30 days written notice. No long-term contracts.</p>
+            <p style="margin-top: 10px;"><strong>Payment:</strong> Maintenance fees are due monthly in advance.</p>
+        </div>
+
+        <h2>4. Payment Terms</h2>
+        <div class="payment-box">
+            <p style="font-size: 20px; color: #5a3a1a;">Development Fee</p>
+            <p class="amount">$700</p>
+            <div class="terms-box">
+                <div class="term">
+                    <span><strong>50% Deposit (DUE NOW):</strong></span>
+                    <span class="highlight">$350</span>
+                </div>
+                <div class="term">
+                    <span><strong>50% Final (UPON COMPLETION):</strong></span>
+                    <span class="highlight">$350</span>
+                </div>
+            </div>
+            <p class="note">Monthly Maintenance: FREE (Month 1), then $100/month (Month 2+)</p>
+            <p class="note" style="margin-top: 10px; font-size: 14px;">Late payments may result in suspension of services.</p>
+        </div>
+
+        <h2>5. Confidentiality</h2>
+        <p>Both parties agree to keep confidential any proprietary information exchanged during the course of this project. This obligation survives termination of this Agreement.</p>
+
+        <div class="divider"></div>
+
+        <h2>Signatures</h2>
+        <div class="signature-box">
+            <div class="signature-line">
+                <p><strong>CLIENT SIGNATURE</strong></p>
+                <div class="line">Owner name</div>
+                <p>DATE: _______________</p>
+            </div>
+            <div class="signature-line">
+                <p><strong>DEVELOPER SIGNATURE</strong></p>
+                <div class="line">Yander Martinez</div>
+                <p>DATE: _______________</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Sabores Argentinos Website Development Agreement</strong></p>
+            <p style="margin-top: 10px;">Prepared May 2, 2026 | Valid for 15 days</p>
+            <p style="margin-top: 10px; font-size: 17px;"><strong>Contact:</strong> al3vip@protonmail.com | 689-244-6145</p>
+            <p style="margin-top: 10px; font-size: 13px; color: #999;">Sabores Argentinos - Authentic Argentine Cuisine in Miami</p>
+        </div>
+    </div>
+</body>
+</html>
